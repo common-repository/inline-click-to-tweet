@@ -1,0 +1,109 @@
+#ictt-adminpanel::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+#ictt-adminpanel #post-body-content .postbox .inside {
+  padding: 0;
+  margin: 0; }
+
+#ictt-settings-header {
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2.2em;
+  margin-top: 10px;
+  margin-bottom: 15px; }
+  #ictt-settings-header span {
+    position: relative;
+    top: -3px;
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: 300;
+    opacity: 0.2;
+    text-transform: none; }
+  #ictt-settings-header small {
+    position: absolute;
+    white-space: nowrap;
+    top: 10px;
+    left: 100%;
+    font-weight: 400;
+    font-style: italic;
+    font-size: .55em;
+    opacity: 0.5;
+    text-transform: none; }
+
+.form-field {
+  padding: 25px 24px;
+  border-bottom: 1px solid #f5f5f5; }
+  .form-field label p {
+    font-weight: 700;
+    margin: 0; }
+
+.form-field_txt {
+  position: relative; }
+  .form-field_txt::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .form-field_txt label {
+    float: left;
+    width: 190px;
+    padding-right: 10px;
+    margin-right: 0;
+    border-right: 1px solid #f5f5f5; }
+    .form-field_txt label:focus {
+      color: green; }
+  .form-field_txt input[type=text] {
+    padding: 15px;
+    width: 100%;
+    max-width: 550px;
+    font-size: 16px;
+    border: none;
+    box-shadow: none; }
+
+.form-field_chkbx input[type=checkbox] {
+  float: left;
+  margin-top: 12px;
+  margin-right: 15px; }
+
+.form-field_colorpicker {
+  padding-bottom: 25px; }
+  .form-field_colorpicker .wp-picker-container {
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px; }
+
+.form-field-submit {
+  padding: 0;
+  height: 0; }
+  .form-field-submit .button-primary {
+    padding: .7em 1.5em;
+    height: auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.15em;
+    margin-top: 20px; }
+
+.form-field_attribution {
+  padding-top: 9px;
+  padding-bottom: 10px;
+  border-bottom: none;
+  background: #fbfbfb;
+  text-align: right; }
+  .form-field_attribution p {
+    color: #999; }
+
+.mce-i-ictt-tweet:before {
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  font-size: 19px;
+  line-height: 1;
+  font-family: "dashicons";
+  content: "\f301";
+  color: #55acee;
+  speak: none;
+  vertical-align: top;
+  position: relative; }
